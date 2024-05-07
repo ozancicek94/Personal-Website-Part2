@@ -1,0 +1,132 @@
+body{
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0px;
+  
+  
+  
+}
+
+header{
+  background-color:blue;
+  padding-top: 10px;
+  height: 200px;
+  
+  
+}
+
+
+#nameTitle {
+  display:inline-block;
+  margin-left: 150px;
+  font-size: 130px;
+  margin-top: 0;
+  color:rgb(79, 255, 43);
+  
+ 
+  
+}
+
+#pageLinks{
+
+  display: inline-block;
+  padding-left: 100px;
+  vertical-align: center;
+  text-align: left;
+  
+  
+  
+}
+
+
+.headerTitles {
+  display: block;
+  /* float: right; */
+  margin-left:20px;
+  font-size: 15px;
+  margin-right: 20px;
+  /* margin-top: 100px; */
+
+  color:rgb(79, 255, 43);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  /* padding-bottom: 15px; */
+  /* width: 150px; */
+  font-weight: 400px;
+  
+}
+
+img{
+  height: 500px;
+  margin-left: 125px;
+  margin-top: 70px;
+  display: inline;
+  margin-bottom: 100px;
+  
+}
+
+#infoText {
+  display: inline-block;
+  width: 800px;
+  margin-left: 150px;
+  color:black;
+  font-weight: 400;
+  padding-top: 50px;
+  vertical-align: top;
+  
+  
+  
+}
+
+.smallInfo{
+  font-size: 13px;
+  color: black;
+  
+}
+
+#bodySmallText{
+  margin-top: 400px;
+}
+
+.contactLinks{
+  color:rgb(79, 255, 43);
+  padding-top: 5px;
+  display: block;
+  padding-left: 20px;
+  
+  
+    
+}
+
+
+footer{
+  background-color: blue;
+  height: 150px;
+  position: fixed;
+  bottom:0;
+  width: 100vw;
+} 
+
+#footerLinks{
+  bottom: 10px;
+  position:fixed;
+
+}
+
+#quote {
+  display: block;
+  margin-top: 300px;
+  color: black;
+  font-size: 15px;
+  width: 730px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
