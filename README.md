@@ -1,2 +1,3 @@
 # Personal-Website-for-Ozan-Cicek
-My personal website
+Ozan Cicek's Personal Website.
+This is my personal website. It has three pages, namely "Home", "About", and "Portfolio".
