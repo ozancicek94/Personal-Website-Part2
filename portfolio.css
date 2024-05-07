@@ -42,18 +42,13 @@ header{
 
 .headerTitles {
   display: block;
-  /* float: right; */
   margin-left:20px;
   font-size: 15px;
   margin-right: 20px;
-  /* margin-top: 100px; */
-
   color:rgb(79, 255, 43);
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
-  /* padding-bottom: 15px; */
-  /* width: 150px; */
   font-weight: 400px;
   
 }
@@ -87,7 +82,6 @@ img{
 }
 
 h3{
-  /* text-decoration: overline; */
   background-color: rgb(79, 255, 43) ;
   margin-left: 0;
   text-align: center;
@@ -114,7 +108,6 @@ h3{
 footer{
   background-color: blue;
   height: 150px;
-  /* position: fixed; */
   bottom:0;
   width: 100vw;
 } 
