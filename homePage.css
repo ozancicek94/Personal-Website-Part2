@@ -12,6 +12,7 @@ header{
   height: 31vh;
   position: absolute;
   width: 100vw;
+  z-index: 1;
 }
 
 
@@ -49,64 +50,112 @@ header{
 }
 
 /* #trunk{
-  position: absolute;
-  background-color: rgb(236, 4, 4);
-  margin-top: 10vh;
+  display: flex;
+  background-color: white;
+  vertical-align: baseline;
+  unicode-bidi: isolate;
+  flex: 0 0 75%;
+  box-sizing: border-box;
+  
 } */
 
 img{
-  width: 40vw;
+  width: 37.8vw;
   margin-left: 0;
   margin-top: 25vh;
   display: inline;
+  flex: 0 0 25%;
   
   /* margin-bottom: 100px; */
+
+    
+   
 }
 
-#infoText {
+.infoText {
   display: block;
-  width: 60vw;
-  margin-left: 35vw;
-  color:black;
+  width: 62.2vw;
+  margin-left: 37.8vw;
+  color:rgb(0, 0, 0);
   font-weight: normal;
-  padding: 3em;
-  vertical-align: top;
+  /* padding: 3em; */
+  /* vertical-align: top; */
   position: absolute;
   background-color: rgb(255, 255, 255);
   z-index: 1;
-  margin-top: 20vh;
-  height: 70vh;
+  margin-top: 12vh;
+  height: 94.4vh;
+  font-weight: normal;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  letter-spacing: 0.05em;
+  /* border: 1px solid black; */
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#bodyTextTitle{
+  font-size: 4vh;
+  padding-left: 2.5vw;
+  font-weight: bold;
+  
 }
 
 .smallInfo{
-  font-size: 13px;
+  font-size: 1.7vh;
   color: black;
+  padding-left: 2.5vw;
+  margin-top: 5em;
+}
+
+#secondPrg{
+  margin-top: 1em;
+
 }
 
 #bodySmallText{
-  margin-top: 400px;
+  margin-top: 10em;
 }
 
-.contactLinks{
-  color:rgb(79, 255, 43);
-  padding-top: 5px;
+#contactLinks{
+  color:rgb(255, 255, 255);
+  padding-top: 0.8em;
   display: block;
   padding-left: 20px; 
+  font-weight: normal;
+  font-size: 1.6vh;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.05em;
 }
 
 
 footer{
-  background-color: blue;
+  background-color: rgb(0, 0, 0);
   height: 17vh;
-  width: 100vw;
+  width: 60vw;
   z-index: 0;
-  margin-top: 36vh;
-  position: absolute;
-  display: block;
+  padding: 1em;
+  margin-top: 15.1vh;
+  color: white;
+  
+  
   
 } 
 
-#footerLinks{
+.footerTitle{
+
+  color:gray;
+  padding-top: 5px;
+  display: block;
+  padding-left: 20px; 
+  font-weight: normal;
+  font-size: 1.6vh;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.05em;
+
+
+}
+
+.footerLinks{
   bottom: 10vh;
   /* margin-left: 0; */
   font-weight: bold;
@@ -115,11 +164,14 @@ footer{
 
 #quote {
   display: block;
-  margin-top: 300px;
+  margin-top: 17.1em;
   color: black;
-  font-size: 15px;
-  width: 730px;
+  font-size: 2vh;
   font-weight: 700;
+  padding-left: 2.5vw;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
 }
 
 
