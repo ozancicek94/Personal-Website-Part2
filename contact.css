@@ -39,7 +39,8 @@ header{
 
 
 .headerTitles {
-  display: block;
+  display: flex;
+  flex-direction: column;
   /* margin-left:1em; */
   font-size: 1.8vh;
   /* margin-right: 20px; */
@@ -236,6 +237,11 @@ button{
 
 button:hover{
   background-color: red;
+}
+
+@media(max-width:760px){
+  body{background-color: blue;
+  }
 }
 
 

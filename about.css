@@ -34,8 +34,6 @@ header{
   margin-top: 0.1vh;
   position: absolute;
   margin-top: 13vh;
-  
-  
 }
 
 
@@ -69,11 +67,7 @@ img{
   margin-top: 10vh;
   display: inline;
   /* flex: 0 0 25%; */
-  
   /* margin-bottom: 100px; */
-
-    
-   
 }
 
 .infoText {
@@ -94,7 +88,6 @@ img{
   letter-spacing: 0.05em;
   border: 1px solid blue;
   background-color: rgb(255, 255, 255);
-  
 }
 
 .smallInfo{
@@ -111,7 +104,6 @@ img{
 
 #bodySmallText{
   margin-top: 400px;
-  
 }
 
 #contactLinks{
@@ -136,13 +128,9 @@ footer{
   color: white;
   /* margin-left: 0; */
   /* vertical-align:bottom; */
-  
-  
-  
 } 
 
 .footerTitle{
-
   color:rgb(79, 255, 43);
   /* padding-top: 5px; */
   display: block;
@@ -151,15 +139,12 @@ footer{
   font-size: 1.6vh;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0.05em;
-
-
 }
 
 .footerLinks{
   /* bottom: 10vh; */
   /* margin-left: 0; */
   font-weight: bold;
-  
 }
 
 
@@ -205,3 +190,14 @@ a:hover{
   text-decoration: underline;
   /* border: 1px solid white; */
 }
+
+@media(max-width:760px){
+  body{background-color: blue;
+  }
+}
+
+/* #leftPhoto{
+  display: inline;
+  margin-top: 40vh;
+  
+} */
