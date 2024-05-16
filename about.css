@@ -1,107 +1,198 @@
 body{
   font-family: "Space Mono", monospace;
-  font-weight: 700;
+  font-weight: normal;
   font-style: normal;
-  margin: 0px;
+  margin: 0; 
+  position: relative;
 }
 
 header{
   background-color:blue;
-  padding-top: 10px;
-  height: 200px;
+  padding-top: 1em;
+  height: 31vh;
+  position: absolute;
+  width: 100vw;
+  z-index: 0;
+  margin-top: 0;
 }
 
 
 #nameTitle {
-  display:inline-block;
-  margin-left: 150px;
-  font-size: 130px;
-  margin-top: 0;
+  display:block;
+  margin-left: 4vw;
+  font-size: 5vh;
+  margin-top: 2vh;
   color:rgb(79, 255, 43);
 }
 
 #pageLinks{
-  display: inline-block;
-  padding-left: 100px;
-  vertical-align: center;
+
+  display: block;
+  margin-left: 4vw;
   text-align: left;
+  margin-top: 0.1vh;
+  position: absolute;
+  
+  
 }
 
 
 .headerTitles {
   display: block;
-  margin-left:20px;
-  font-size: 15px;
-  margin-right: 20px;
+  /* margin-left:1em; */
+  font-size: 1.8vh;
+  /* margin-right: 20px; */
   color:rgb(79, 255, 43);
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
-  font-weight: 400px; 
+  /* padding-left: 1.5em; */
+  /* padding-right: 15px; */
+  padding-top: 0.5em;
+  font-weight: normal;
+  letter-spacing: 0.05em;
 }
+
+/* #trunk{
+  display: flex;
+  background-color: white;
+  vertical-align: baseline;
+  unicode-bidi: isolate;
+  flex: 0 0 75%;
+  box-sizing: border-box;
+  
+} */
 
 img{
-  height: 500px;
-  margin-left: 125px;
-  margin-top: 70px;
+  width: 37.8vw;
+  margin-left: 0;
+  margin-top: 10vh;
   display: inline;
-  margin-bottom: 100px;
+  /* flex: 0 0 25%; */
+  
+  /* margin-bottom: 100px; */
+
+    
+   
 }
 
-#infoText {
-  display: inline-block;
-  width: 800px;
-  margin-left: 150px;
-  color:black;
-  font-weight: 400;
-  padding-top: 50px;
-  vertical-align: top;
+.infoText {
+  display: block;
+  width: 55.5vw;
+  margin-left: 37.8vw;
+  color:blue;
+  font-weight: normal;
+  /* padding: 3em; */
+  /* vertical-align: top; */
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  margin-top: 12vh;
+  /* height: 94.4vh; */
+  font-weight: normal;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  letter-spacing: 0.05em;
+  border: 1px solid blue;
+  background-color: rgb(255, 255, 255);
+  
 }
 
 .smallInfo{
-  font-size: 13px;
-  color: black;
+  font-size: 1.4vh;
+  color: blue;
+  width: 50w;
+  padding-right: 3vw;
 }
 
-h3{
+
+/* h3{
   text-decoration: overline;
-}
+} */
 
 #bodySmallText{
   margin-top: 400px;
+  
 }
 
-.contactLinks{
-  color:rgb(79, 255, 43);
-  padding-top: 5px;
+#contactLinks{
+  color:rgb(255, 255, 255);
+  padding-top: 0.8em;
   display: block;
-  padding-left: 20px;
+  padding-left: 20px; 
+  font-weight: normal;
+  font-size: 1.6vh;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.05em;
 }
 
 
 footer{
   background-color: blue;
-  height: 150px;
-  bottom:0;
-  width: 100vw;
+  height: 17vh;
+  /* width: 60vw; */
+  z-index: 0;
+  padding: 1em;
+  margin-top: 15.1vh;
+  color: white;
+  /* margin-left: 0; */
+  /* vertical-align:bottom; */
+  
+  
+  
 } 
 
-#footerLinks{
-  bottom: 10px;
-  position:fixed;
+.footerTitle{
+
+  color:rgb(79, 255, 43);
+  /* padding-top: 5px; */
+  display: block;
+  padding-left: 20px; 
+  font-weight: normal;
+  font-size: 1.6vh;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.05em;
+
+
 }
 
-#quote {
+.footerLinks{
+  /* bottom: 10vh; */
+  /* margin-left: 0; */
+  font-weight: bold;
+  
+}
+
+
+/* #quote {
   display: block;
   margin-top: 300px;
   color: black;
   font-size: 15px;
   width: 730px;
   font-weight: 700;
-}
+} */
 
 #aboutTables{
-  border: solid blue 1px;
-  padding: 30px;
-  margin-top: 10px;
+  /* border: solid blue 1px; */
+  /* padding: 30px; */
+  /* margin-top: 10px; */
+  margin-left: 0;
+  z-index: 100;
+  margin-top: 20vh;
+  /* padding: 3em; */
+  padding-left: 3vw;
+}
+
+#bodyTextTitle{
+  font-size: 4vh;
+  margin-left: 3vw;
+  margin-top: 4.5vw;
+}
+
+hr{
+  border-color: blue;
+  margin-right: 3vw;
+}
+
+h3{
+  background-color:rgb(79, 255, 43);
+  padding: 0.2em;
+  margin-right: 3vw;;
 }

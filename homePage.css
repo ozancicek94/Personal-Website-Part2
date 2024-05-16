@@ -1,6 +1,6 @@
 body{
   font-family: "Space Mono", monospace;
-  font-weight: 700;
+  font-weight: normal;
   font-style: normal;
   margin: 0; 
   position: relative;
@@ -12,7 +12,8 @@ header{
   height: 31vh;
   position: absolute;
   width: 100vw;
-  z-index: 1;
+  z-index: 0;
+  margin-top: 0;
 }
 
 
@@ -62,9 +63,9 @@ header{
 img{
   width: 37.8vw;
   margin-left: 0;
-  margin-top: 25vh;
+  margin-top: 10vh;
   display: inline;
-  flex: 0 0 25%;
+  /* flex: 0 0 25%; */
   
   /* margin-bottom: 100px; */
 
@@ -74,37 +75,39 @@ img{
 
 .infoText {
   display: block;
-  width: 62.2vw;
+  width: 55.5vw;
   margin-left: 37.8vw;
-  color:rgb(0, 0, 0);
+  color:blue;
   font-weight: normal;
   /* padding: 3em; */
   /* vertical-align: top; */
   position: absolute;
   background-color: rgb(255, 255, 255);
-  z-index: 1;
+  z-index: 2;
   margin-top: 12vh;
-  height: 94.4vh;
+  /* height: 94.4vh; */
   font-weight: normal;
   /* font-family: Arial, Helvetica, sans-serif; */
   letter-spacing: 0.05em;
-  /* border: 1px solid black; */
+  border: 1px solid blue;
   background-color: rgb(255, 255, 255);
   
 }
 
 #bodyTextTitle{
   font-size: 4vh;
-  padding-left: 2.5vw;
+  padding-left: 3vw;
   font-weight: bold;
+  padding-top: 5vh;
   
 }
 
 .smallInfo{
-  font-size: 1.7vh;
-  color: black;
-  padding-left: 2.5vw;
+  font-size: 1.4vh;
+  color: blue;
+  padding-left: 3vw;
   margin-top: 5em;
+  
 }
 
 #secondPrg{
@@ -129,22 +132,25 @@ img{
 
 
 footer{
-  background-color: rgb(0, 0, 0);
+  background-color: blue;
   height: 17vh;
-  width: 60vw;
+  /* width: 60vw; */
   z-index: 0;
   padding: 1em;
-  margin-top: 15.1vh;
+  margin-top: 10vh;
   color: white;
+  
   
   
   
 } 
 
+
+
 .footerTitle{
 
-  color:gray;
-  padding-top: 5px;
+  color:rgb(79, 255, 43);
+  /* padding-top: 5em; */
   display: block;
   padding-left: 20px; 
   font-weight: normal;
@@ -156,22 +162,29 @@ footer{
 }
 
 .footerLinks{
-  bottom: 10vh;
+  /* bottom: 10vh; */
   /* margin-left: 0; */
   font-weight: bold;
+  
   
 }
 
 #quote {
   display: block;
-  margin-top: 17.1em;
-  color: black;
+  margin-top: 23.6vh;
+  color: blue;
   font-size: 2vh;
   font-weight: 700;
-  padding-left: 2.5vw;
+  /* padding-left: 2.5vw; */
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
+  font-style: italic; 
+  /* border: 1px solid black; */
+  text-align: center;
+  background-color:rgb(79, 255, 43);
+  padding: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 
